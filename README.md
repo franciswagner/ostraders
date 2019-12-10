@@ -1,5 +1,5 @@
 # Open Brazil Traders
-Projeto de recomendação de compra e venda de ações na b3(recomendado para swing traders)
+Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com.br/pt_br/) - Recomendado para swing traders
 
 Baseado no livro [Como se transformar em um operador e investidor de sucesso de Alexander Elder](https://www.amazon.com.br/Como-transformar-operador-investidor-sucesso/dp/8550801097)
 
