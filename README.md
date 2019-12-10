@@ -20,8 +20,11 @@ Baseado no livro [Como se transformar em um operador e investidor de sucesso de 
 
 * [Java 1.8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Spring Boot](https://projects.spring.io/spring-boot/) * Tomcat embedded
-* [PostgreSQL](https://www.postgresql.org/) * Onde os dados de cálculo são armazenados
+* [Spring Batch](https://projects.spring.io/spring-batch/)
+* [PostgreSQL](https://www.postgresql.org/) * Onde os dados da carga são armazenados e 
+utilizado para as tabelas de controle do Spring Batch
 * [Maven](https://maven.apache.org/)
+* [Kafka](https://kafka.apache.org/)
 
 #### Passos para a execução do projeto
 
@@ -44,3 +47,15 @@ Porta de execução padrão 8667
 #### Diretórios
 
 sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,saida}
+
+
+#### Mensageria (KAFKA)
+
+`sudo docker-compose up -d`
+
+`sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-diario`
+
+`sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal`
+
+##### Cotações Históricas
+[Cotação](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
