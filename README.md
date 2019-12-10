@@ -29,6 +29,14 @@ utilizado para as tabelas de controle do Spring Batch
 * [Flyway](https://flywaydb.org/)
 * [Docker](https://docs.docker.com/)
 
+
+#### Projetos envolvidos na solução
+
+* [carga-bmf-arquivo-cotacoes](https://github.com/ricardococati/carga-bmf-arquivo-cotacoes)
+
+* [calcula-cotacoes](https://github.com/ricardococati/calcula-cotacoes)
+
+
 #### Passos para a execução do projeto
 
 Criar as bases de dados conforme descrito abaixo nas linhas de datasource.
