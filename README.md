@@ -1,13 +1,19 @@
 # Open Brazil Traders
 Projeto de recomendação de compra e venda de ações na b3(recomendado para swing traders)
+Baseado no livro [Como se transformar em um operador e investidor de sucesso de Alexander Elder](https://www.amazon.com.br/Como-transformar-operador-investidor-sucesso/dp/8550801097)
 
 ![](./images/openBrazilTrader.png?raw=true)
 
 #### Algumas regras de negócio pertinentes:
 * Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas de Candles.
+* Validação dos dados carregados.
+* Criação do Candlestick Diário no momento da carga de dados do arquivo posicional.
+* Criação do Candlestick Semanal após a execução de carga, para que o sistema contenha todas as informações necessárias.
 * Cálculo da [média móvel simples](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel).
 * Cálculo da [média móvel exponencial](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel)
 * Cálculo do [MACD](https://pt.wikipedia.org/wiki/MACD)
+* Cálculo do [Linha de Sinal do MACD](https://www.bussoladoinvestidor.com.br/macd-convergencia-divergencia/)
+* Cálculo do [Histograma MACD](https://www.tradergrafico.com.br/www/newsletter/?Data=31/12/2007)
 
 
 #### Tecnologias
