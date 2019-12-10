@@ -26,15 +26,18 @@ Baseado no livro [Como se transformar em um operador e investidor de sucesso de 
 utilizado para as tabelas de controle do Spring Batch
 * [Maven](https://maven.apache.org/)
 * [Kafka](https://kafka.apache.org/)
+* [Flyway](https://flywaydb.org/)
+* [Docker](https://docs.docker.com/)
 
 #### Passos para a execução do projeto
 
 Criar as bases de dados conforme descrito abaixo nas linhas de datasource.
 
 #### Porta de execução
-Porta de execução padrão 8667 
+Portas de execução padrão 8666 e 8667 
 
-* Swagger da aplicação. [localhost:8667/swagger-ui.html](localhost:8667/swagger-ui.html)
+* Swagger da aplicação carga. [localhost:8666/swagger-ui.html](localhost:8666/swagger-ui.html)
+* Swagger da aplicação cálculo. [localhost:8667/swagger-ui.html](localhost:8667/swagger-ui.html)
 
 #### Datasources
 
@@ -42,8 +45,8 @@ Porta de execução padrão 8667
 
     | Name         | JNDI       | Connection URL                                            | Service Name 			| User 			 | Pass 		    |
     | -------      |:----:      |:-------------:                                            |:-------------:		|:---------- |:---------:   |
-    | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |                   | dbbmf      | dbbmf        |
     | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |                   | dbbmf      | dbbmf        |
+    | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |                   | dbbmf      | dbbmf        |
 
 #### Diretórios
 
