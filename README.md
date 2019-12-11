@@ -32,9 +32,9 @@ utilizado para as tabelas de controle do Spring Batch
 
 #### Projetos envolvidos na solução
 
-* [carga-bmf-arquivo-cotacoes](https://github.com/ricardococati/carga-bmf-arquivo-cotacoes)
+* [carga-bmf-arquivo-cotacoes](https://github.com/openbrazilbrokers/carga-bmf-arquivo-cotacoes)
 
-* [calcula-cotacoes](https://github.com/ricardococati/calcula-cotacoes)
+* [calcula-cotacoes](https://github.com/openbrazilbrokers/calcula-cotacoes)
 
 
 #### Passos para a execução do projeto
