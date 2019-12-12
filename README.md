@@ -1,4 +1,4 @@
-# Open Brazil Traders
+# Open Brazil Brokers
 Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com.br/pt_br/) - **Recomendado para swing traders**
 
 ![](./images/openBrazilTrader.png?raw=true)
