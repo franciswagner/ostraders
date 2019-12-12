@@ -1,7 +1,7 @@
 # Open Brazil Brokers
 Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com.br/pt_br/) - **Recomendado para swing traders**
 
-![](./images/openBrazilTrader.png?raw=true)
+![](./images/openBrazilBrokers.png?raw=true)
 
 #### Algumas regras de negócio pertinentes:
 * Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas dos Candles do serviço de cálculo.
