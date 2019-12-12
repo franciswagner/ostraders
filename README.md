@@ -4,15 +4,15 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 ![](./images/openBrazilTrader.png?raw=true)
 
 #### Algumas regras de negócio pertinentes:
-* Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas de Candles.
-* Validação dos dados carregados.
+* Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas dos Candles do serviço de cálculo.
+* Validação sintática dados no momento da carga.
 * Criação do Candlestick Diário no momento da carga de dados do arquivo posicional.
 * Criação do Candlestick Semanal após a execução de carga, para que o sistema contenha todas as informações necessárias.
-* Cálculo da [média móvel simples](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel).
-* Cálculo da [média móvel exponencial](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel)
-* Cálculo do [MACD](https://pt.wikipedia.org/wiki/MACD)
-* Cálculo do [Linha de Sinal do MACD](https://www.bussoladoinvestidor.com.br/macd-convergencia-divergencia/)
-* Cálculo do [Histograma MACD](https://www.tradergrafico.com.br/www/newsletter/?Data=31/12/2007)
+* Cálculo (Diário e Semanal) da [média móvel simples](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel).
+* Cálculo (Diário e Semanal) da [média móvel exponencial](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel)
+* Cálculo (Diário e Semanal) do [MACD](https://pt.wikipedia.org/wiki/MACD)
+* Cálculo (Diário e Semanal) do [Linha de Sinal do MACD](https://www.bussoladoinvestidor.com.br/macd-convergencia-divergencia/)
+* Cálculo (Diário e Semanal) do [Histograma MACD](https://www.tradergrafico.com.br/www/newsletter/?Data=31/12/2007)
 
 
 #### Tecnologias
@@ -48,6 +48,8 @@ Portas de execução padrão 8666 e 8667
 * Swagger da aplicação cálculo. [localhost:8667/swagger-ui.html](localhost:8667/swagger-ui.html)
 
 #### Datasources
+
+Obs.: É necessário ter uma base postgresql préviamente instalada(Docker ou instalação Localhost)
 
 * Configuração:
 
