@@ -1,8 +1,6 @@
 # Open Brazil Traders
 Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com.br/pt_br/) - **Recomendado para swing traders**
 
-Baseado no livro [Como se transformar em um operador e investidor de sucesso de Alexander Elder](https://www.amazon.com.br/Como-transformar-operador-investidor-sucesso/dp/8550801097)
-
 ![](./images/openBrazilTrader.png?raw=true)
 
 #### Algumas regras de negócio pertinentes:
@@ -29,6 +27,8 @@ utilizado para as tabelas de controle do Spring Batch
 * [Flyway](https://flywaydb.org/)
 * [Docker](https://docs.docker.com/)
 
+Bibliografia:
+* [Como se transformar em um operador e investidor de sucesso de Alexander Elder](https://www.amazon.com.br/Como-transformar-operador-investidor-sucesso/dp/8550801097)
 
 #### Projetos envolvidos na solução
 
