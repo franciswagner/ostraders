@@ -60,8 +60,15 @@ Obs.: É necessário ter uma base postgresql préviamente instalada(Docker ou in
 
 #### Diretórios
 
-sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,saida}
+Criando a estrura de pastas do projeto:
+`sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,saida,zip}`
 
+Caso o seu usuário não seja o admin da máquina, siga os passos abaixo:
+
+Como a criação de pastas na raíz do sistema operacional é condicionada aos usuários administradores do sistema é necessário que seja alterada as permissões da pasta para que o usuário logado consiga efetuar as modificações que o sistema demanda.
+Atribuindo ao usuário da máquina como owner da pasta:
+
+`sudo chown -R ricardococati:ricardococati /data/*`
 
 #### Mensageria (KAFKA)
 
