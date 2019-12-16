@@ -7,7 +7,7 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 * Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas dos Candles do serviço de cálculo.
 * Validação sintática dados no momento da carga.
 * Criação do Candlestick Diário no momento da carga de dados do arquivo posicional.
-* Criação do Candlestick Semanal após a execução de carga, para que os candles diários como base.
+* Criação do Candlestick Semanal após a execução de carga/candles diários, para que o sistema utilize os candles diários como base.
 * Cálculo (Diário e Semanal) da [média móvel simples](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel).
 * Cálculo (Diário e Semanal) da [média móvel exponencial](https://pt.wikipedia.org/wiki/M%C3%A9dia_m%C3%B3vel)
 * Cálculo (Diário e Semanal) do [MACD](https://pt.wikipedia.org/wiki/MACD)
