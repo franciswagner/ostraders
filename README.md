@@ -67,7 +67,7 @@ Criando a estrura de pastas do projeto:
 
 Caso o seu usuário não seja o admin da máquina, siga os passos abaixo:
 
-Como a criação de pastas na raíz do sistema operacional é condicionada aos usuários administradores do sistema é necessário que seja alterada as permissões da pasta para que o usuário logado consiga efetuar as modificações que o sistema demanda.
+_Obs.: Como a criação de pastas na raíz do sistema operacional é condicionada aos usuários administradores do sistema é necessário que seja alterada as permissões da pasta para que o usuário logado consiga efetuar as modificações que o sistema demanda._
 Atribuindo ao usuário da máquina como owner da pasta:
 
 `sudo chown -R seu_usuario:seu_usuario /data/*`
