@@ -63,7 +63,7 @@ Obs.: É necessário ter uma base postgresql préviamente instalada(Docker ou in
 
 Criando a estrura de pastas do projeto:
 
-`sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,saida,zip}`
+`sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,sucesso,zip}`
 
 Caso o seu usuário não seja o admin da máquina, siga os passos abaixo:
 
