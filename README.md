@@ -32,9 +32,9 @@ Bibliografia:
 
 #### Projetos envolvidos na solução
 
-* [carga-bmf-arquivo-cotacoes](https://github.com/openbrazilbrokers/carga-bmf-arquivo-cotacoes)
+* [carga-bmf-arquivo-cotacoes](https://github.com/ostraders/carga-bmf-arquivo-cotacoes)
 
-* [calcula-cotacoes](https://github.com/openbrazilbrokers/calcula-cotacoes)
+* [calcula-cotacoes](https://github.com/ostraders/calcula-cotacoes)
 
 
 #### Passos para a execução do projeto
