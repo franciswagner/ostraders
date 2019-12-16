@@ -13,6 +13,7 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 * Cálculo (Diário e Semanal) do [MACD](https://pt.wikipedia.org/wiki/MACD)
 * Cálculo (Diário e Semanal) do [Linha de Sinal do MACD](https://www.bussoladoinvestidor.com.br/macd-convergencia-divergencia/)
 * Cálculo (Diário e Semanal) do [Histograma MACD](https://www.tradergrafico.com.br/www/newsletter/?Data=31/12/2007)
+* Cálculo de recomendação de compras por ação.
 
 
 #### Tecnologias
