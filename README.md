@@ -16,7 +16,7 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 * Cálculo de recomendação de compras por ação.
 
 
-#### Tecnologias
+#### Tecnologias e Dependências
 
 * [Java 1.8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Spring Boot](https://projects.spring.io/spring-boot/) * Tomcat embedded
