@@ -13,7 +13,7 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 * Cálculo (Diário e Semanal) do [MACD](https://pt.wikipedia.org/wiki/MACD)
 * Cálculo (Diário e Semanal) do [Linha de Sinal do MACD](https://www.bussoladoinvestidor.com.br/macd-convergencia-divergencia/)
 * Cálculo (Diário e Semanal) do [Histograma MACD](https://www.tradergrafico.com.br/www/newsletter/?Data=31/12/2007)
-* Cálculo de recomendação de compras por ação.
+* Cálculo de recomendação de compra e venda de ações por código de negociação.
 
 
 #### Tecnologias e Dependências
@@ -81,6 +81,11 @@ Associando o usuário logado como owner da pasta:
 
 `sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal`
 
-##### Cotações Históricas
+#### Cotações Históricas
 
 Para baixar os arquivos de cotação click [aqui:](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
+
+#### Mentores do projeto
+Alexandre Tiago Cocati
+[Júlio César Cocati](https://www.linkedin.com/in/juliococati/)
+[Ricardo Cocati](https://www.linkedin.com/in/ricardococati/)
