@@ -85,7 +85,8 @@ Associando o usuário logado como owner da pasta:
 
 Para baixar os arquivos de cotação click [aqui:](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
 
-#### Mentores do projeto
+#### Idealizado por:
+
 Alexandre Tiago Cocati
 
 [Júlio César Cocati](https://www.linkedin.com/in/juliococati/)
