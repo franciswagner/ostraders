@@ -87,5 +87,7 @@ Para baixar os arquivos de cotação click [aqui:](http://www.b3.com.br/pt_br/ma
 
 #### Mentores do projeto
 Alexandre Tiago Cocati
+
 [Júlio César Cocati](https://www.linkedin.com/in/juliococati/)
+
 [Ricardo Cocati](https://www.linkedin.com/in/ricardococati/)
