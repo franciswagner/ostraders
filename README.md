@@ -3,7 +3,7 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 
 ![](./images/openSourceTraders.png?raw=true)
 
-#### Algumas regras de negócio pertinentes:
+#### Algumas regras de negócio/soluções técnicas pertinentes:
 * Integração via [Apache Kafka](https://kafka.apache.org/), para alimentar as tabelas dos Candles do serviço de cálculo.
 * Validação sintática dados no momento da carga.
 * Criação do Candlestick Diário no momento da carga de dados do arquivo posicional.
