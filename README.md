@@ -27,6 +27,7 @@ utilizado para as tabelas de controle do Spring Batch
 * [Kafka](https://kafka.apache.org/)
 * [Flyway](https://flywaydb.org/)
 * [Docker](https://docs.docker.com/)
+* [Linux](https://www.linux.org/) Para melhor o funcionamento é recomendado o uso do Linux Debian Based(Não foi testado em outras plataformas)
 
 Bibliografia:
 * [Como se transformar em um operador e investidor de sucesso de Alexander Elder](https://www.amazon.com.br/Como-transformar-operador-investidor-sucesso/dp/8550801097)
