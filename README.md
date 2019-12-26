@@ -84,6 +84,7 @@ Associando o usuário logado como owner da pasta:
 
 #### Quadro Kanban com as requisições de negócio
 Para acessar os requisitos de negócio é necessário acessar o quadro kanban no [Trello](https://trello.com/b/BQKBD0mj/projeto-b3-an%C3%A1lise-a%C3%A7%C3%A3o)
+
 Obs.: Quadro privado, é necessário solicitar permissão para acessar o quadro.
 
 #### Cotações Históricas
