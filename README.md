@@ -84,7 +84,7 @@ Associando o usuário logado como owner da pasta:
 
 #### Cotações Históricas
 
-Para baixar os arquivos de cotação click [aqui:](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
+Para baixar os arquivos de cotação acesse o site da B3: [B3](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
 
 #### Empresas listadas na B3(12/2019)
 Para visualizar a lista de empresas listadas na B3 acesse: [infomoney](https://www.infomoney.com.br/cotacoes/empresas-b3/)
