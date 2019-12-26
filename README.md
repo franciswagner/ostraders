@@ -82,6 +82,10 @@ Associando o usuário logado como owner da pasta:
 
 `sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal`
 
+#### Quadro Kanban com as requisições de negócio
+Para acessar os requisitos de negócio é necessário acessar o quadro kanban no [Trello](https://trello.com/b/BQKBD0mj/projeto-b3-an%C3%A1lise-a%C3%A7%C3%A3o)
+Obs.: Quadro privado, é necessário solicitar permissão para acessar o quadro.
+
 #### Cotações Históricas
 
 Para baixar os arquivos de cotação acesse o site da B3: [B3](http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/)
