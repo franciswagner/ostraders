@@ -40,7 +40,7 @@ Bibliografia:
 
 #### Arquivo de layout de cotações
 
-![Layout_BDIN_20110708.pdf](./files/Layout_BDIN_20110708.pdf?raw=true)
+![Layout_BDIN_20110708.pdf](./files/Layout_BDIN_20110708.pdf)
 
 
 #### Passos para a execução do projeto
