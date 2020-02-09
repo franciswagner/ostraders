@@ -43,10 +43,10 @@ echo "AGUARDA 5 SEGUNDOS"
 sleep 5
 
 echo "CRIANDO TÓPICOS NO KAFKA DIARIO"
-sudo docker exec carga-bmf-arquivo-cotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-diario
+sudo docker exec ostraders_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-diario
 
 echo "AGUARDA 5 SEGUNDOS"
 sleep 5
 
 echo "CRIANDO TÓPICOS NO KAFKA SEMANAL"
-sudo docker exec carga-bmf-arquivo-cotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal
+sudo docker exec ostraders_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal
