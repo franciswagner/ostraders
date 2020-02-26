@@ -24,7 +24,7 @@ pg-dbbmf:
     POSTGRES_USER: dbbmf
     POSTGRES_PASSWORD: dbbmf
   volumes:
-    - /data/sql/:/docker-entrypoint-initdb.d/
+    - /data/sql/dbbmf:/var/lib/postgresql/data
   ports:
     - "5432:5432"
 
@@ -35,18 +35,6 @@ pg-calcula-dbbmf:
     POSTGRES_USER: dbbmf
     POSTGRES_PASSWORD: dbbmf
   volumes:
-    - /data/sql/:/docker-entrypoint-initdb.d/
+    - /data/sql/calcula_bmf:/var/lib/postgresql/data
   ports:
     - "5433:5432"
-
-# Para CRIAR e INICIALIZAR os containers definidos acima:
-# docker-compose up  (esse comando cria e inicia os containers. Caso não queira apendar o processo no console utilizar a opção -d)
-
-# Para verificar os containers rodando:
-# docker-compose ps
-
-# Para PARAR os containers
-# docker-compose stop
-
-# Para PARAR E REMOVER os containers
-# docker-compose down
