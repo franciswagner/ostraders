@@ -46,46 +46,45 @@ Bibliografia:
 
 #### Passos para a execução do projeto
 
-Criar as bases de dados conforme descrito abaixo nas linhas de datasource.
-
 #### Porta de execução
 Portas de execução padrão 8666 e 8667 
 
 * Swagger da aplicação carga. [localhost:8666/swagger-ui.html](localhost:8666/swagger-ui.html)
 * Swagger da aplicação cálculo. [localhost:8667/swagger-ui.html](localhost:8667/swagger-ui.html)
 
-#### Datasources
 
-Obs.: É necessário ter uma base postgresql préviamente instalada(Docker ou instalação Localhost)
+##### Obs.: Para facilitar a criação do projeto foi criado o script bash `monta_ambiente.sh` encontrado na raíz desse projeto.
 
-* Configuração:
+Nele contem os seguintes passos: 
 
-    | Name         | JNDI       | Connection URL                                            | Service Name 			| User 			 | Pass 		    |
-    | -------      |:----:      |:-------------:                                            |:-------------:		|:---------- |:---------:   |
-    | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |                   | dbbmf      | dbbmf        |
-    | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |                   | dbbmf      | dbbmf        |
+* Criação das bases de dados conforme descrito abaixo nas linhas de datasource.
 
-#### Diretórios
-
-Criando a estrura de pastas do projeto:
-
-`sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,sucesso,zip}`
-
-Caso o seu usuário não seja o admin da máquina, siga os passos abaixo:
-
-_Obs.: Como a criação de pastas na raíz do sistema operacional é condicionada aos usuários administradores do sistema é necessário que seja alterada as permissões da pasta para que o usuário logado consiga efetuar as modificações que o sistema demanda._
-
-Associando o usuário logado como owner da pasta:
-
-`sudo chown -R seu_usuario:seu_usuario /data/*`
-
-#### Mensageria (KAFKA)
-
-`sudo docker-compose up -d`
-
-`sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-diario`
-
-`sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal`
+    #### Datasources
+    
+    Obs.: Criadas as bases postgresql necessárias para o projeto(Docker), com as seguintes configs:
+    
+    * Configuração:
+    
+        | Name         | JNDI       | Connection URL                                            | Service Name | User 		| Pass 		    |
+        | :------------|:-----------|:----------------------------------------------------------|:-------------:------------|:--------------|
+        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |              | dbbmf      | dbbmf         |
+        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |              | dbbmf      | dbbmf         |
+    
+    #### Diretórios
+    
+    Criadas as estruras de pastas do projeto:
+    
+    `sudo mkdir -p data/bmfCarga/{entrada,erro,execucao,sucesso,zip}`
+    
+    `sudo mkdir -p data/bmfCarga/{sql}`
+    
+    #### Mensageria (KAFKA)
+    
+    `sudo docker-compose up -d`
+    
+    `sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-diario`
+    
+    `sudo docker exec cargabmfarquivocotacoes_kafka_1 /opt/kafka_2.11-0.10.1.0/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic candlestick-semanal`
 
 #### Quadro Kanban com as requisições de negócio
 Para acessar os requisitos de negócio é necessário acessar o quadro kanban no [Trello](https://trello.com/b/BQKBD0mj/projeto-b3-an%C3%A1lise-a%C3%A7%C3%A3o)
@@ -106,3 +105,4 @@ Alexandre Tiago Cocati
 [Júlio César Cocati](https://www.linkedin.com/in/juliococati/)
 
 [Ricardo Cocati](https://www.linkedin.com/in/ricardococati/)
+
