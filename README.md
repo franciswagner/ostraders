@@ -65,10 +65,10 @@ Nele contem os seguintes passos:
     
     * Configuração:
     
-        | Name         | JNDI       | Connection URL                                            | Service Name | User 		| Pass 		    |
-        | :------------|:-----------|:----------------------------------------------------------|:-------------:------------|:--------------|
-        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |              | dbbmf      | dbbmf         |
-        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |              | dbbmf      | dbbmf         |
+        | Name         | JNDI       | Connection URL                                            | Service Name 			| User 			 | Pass 		    |
+        | -------      |:----:      |:-------------:                                            |:-------------:		|:---------- |:---------:   |
+        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |                   | dbbmf      | dbbmf        |
+        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |                   | dbbmf      | dbbmf        |
     
     #### Diretórios
     
