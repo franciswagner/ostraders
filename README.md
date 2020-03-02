@@ -18,8 +18,8 @@ Projeto de recomendação de compra e venda de ações na [B3](http://www.b3.com
 
 #### Tecnologias e Dependências
 
-* [Java 1.8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-* [Spring Boot](https://projects.spring.io/spring-boot/) * Tomcat embedded
+* [Java 11](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk)
+* [Spring Boot 1.5](https://projects.spring.io/spring-boot/) * Tomcat embedded
 * [Spring Batch](https://projects.spring.io/spring-batch/)
 * [PostgreSQL](https://www.postgresql.org/) * Onde os dados da carga são armazenados e 
 utilizado para as tabelas de controle do Spring Batch
