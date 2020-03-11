@@ -44,6 +44,17 @@ Bibliografia:
 ![Layout_BDIN_20110708.pdf](./files/Layout_BDIN_20110708.pdf)
 
 
+#### Diagrama de Entidade e Relacionamento
+
+Base de dados: **calcula_bmf**
+
+![](./images/diagramaERCalcula.png?raw=true)
+
+Base de dados: **dbbmf**
+
+![](./images/diagramaERCarga.png?raw=true)
+
+
 #### Passos para a execução do projeto
 
 #### Porta de execução
@@ -67,7 +78,7 @@ Nele contem os seguintes passos:
     
         | Name         | JNDI       | Connection URL                                            | Service Name 			| User 			 | Pass 		    |
         | -------      |:----:      |:-------------:                                            |:-------------:		|:---------- |:---------:   |
-        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/bmf                         |                   | dbbmf      | dbbmf        |
+        | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/dbbmf                       |                   | dbbmf      | dbbmf        |
         | xxx          | xxx        |jdbc:postgresql://0.0.0.0:5432/calcula_bmf                 |                   | dbbmf      | dbbmf        |
     
     #### Diretórios
