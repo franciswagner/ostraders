@@ -115,5 +115,5 @@ Alexandre Tiago Cocati
 
 [Júlio César Cocati](https://www.linkedin.com/in/juliococati/)
 
-[Ricardo Cocati](https://www.linkedin.com/in/ricardococati/)
+[João Ricardo Cocati](https://www.linkedin.com/in/ricardococati/)
 
